@@ -63,13 +63,12 @@
             // | SHFT |  *  |  -  |  +  |  /  |  =  |               |  "  |  {  |  }  |  }  |  |  |  ~   |
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
-bindings = <
-        &kp TAB       DE_EXCLAMATION    DE_AT_SIGN       DE_HASH           DE_DOLLAR         DE_PERCENT     &kp LCTRL    &kp RCTRL       DE_AMPERSAND      DE_LEFT_BRACKET   DE_RIGHT_BRACKET   DE_LEFT_PARENTHESIS  DE_QUESTION      &kp BSPC
-        &kp LCTRL     &none             DE_UNDERSCORE    DE_LESS_THAN      DE_GREATER_THAN   DE_COLON       &kp LALT     &kp RALT        DE_APOSTROPHE      DE_LEFT_PARENTHESIS  DE_RIGHT_PARENTHESIS DE_RIGHT_BRACKET  DE_BACKSLASH     DE_GRAVE
-        &kp LSHIFT    DE_ASTERISK       DE_MINUS         DE_PLUS           DE_SLASH           DE_EQUAL       &none        &none           &none              DE_DOUBLE_QUOTES    DE_LEFT_BRACE      DE_RIGHT_BRACE      DE_PIPE          DE_TILDE
-        &kp LGUI      &none             &kp SPC          &none             &none             &kp ENT        &none        &kp ALT
-    >;
-        };
+      bindings = <
+    /* Row 1 */  &kp TAB       &kp DE_EXCLAMATION  &kp DE_AT_SIGN     &kp DE_HASH      &kp DE_DOLLAR      &kp DE_PERCENT    &kp LCTRL    &kp RCTRL     &kp DE_AMPERSAND      &kp DE_LEFT_BRACKET   &kp DE_RIGHT_BRACKET   &kp DE_LEFT_PARENTHESIS  &kp DE_QUESTION       &kp BSPC
+    /* Row 2 */  &kp LCTRL     &trans              &kp DE_UNDERSCORE  &kp DE_LESS_THAN  &kp DE_GREATER_THAN &kp DE_COLON      &kp LALT     &kp RALT      &kp DE_SINGLE_QUOTE   &kp DE_LEFT_PARENTHESIS &kp DE_RIGHT_PARENTHESIS &kp DE_RIGHT_BRACKET     &kp DE_BACKSLASH      &kp DE_GRAVE
+    /* Row 3 */  &kp LSHFT     &kp DE_ASTERISK     &kp DE_MINUS       &kp DE_PLUS       &kp DE_SLASH        &kp DE_EQUAL      &trans       &trans        &kp DE_DOUBLE_QUOTES  &kp DE_LEFT_BRACE      &kp DE_RIGHT_BRACE      &kp DE_RIGHT_BRACE        &kp DE_PIPE           &kp DE_TILDE
+    /* Thumb */  &kp LGUI      &trans              &trans              &kp RETURN        &kp SPACE           &kp ALT
+            >;
 
         extra_layer_1 {
             display-name = "EXTRA 1";
