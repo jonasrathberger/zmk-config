@@ -69,6 +69,7 @@
     /* Row 3 */  &kp LSHFT     &kp DE_ASTERISK     &kp DE_MINUS       &kp DE_PLUS       &kp DE_SLASH        &kp DE_EQUAL      &trans       &trans        &kp DE_DOUBLE_QUOTES  &kp DE_LEFT_BRACE      &kp DE_RIGHT_BRACE      &kp DE_RIGHT_BRACE        &kp DE_PIPE           &kp DE_TILDE
     /* Thumb */  &kp LGUI      &trans              &trans              &kp RETURN        &kp SPACE           &kp ALT
             >;
+        };
 
         extra_layer_1 {
             display-name = "EXTRA 1";
