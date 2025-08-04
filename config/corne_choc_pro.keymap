@@ -64,10 +64,10 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp DE_EXCLAMATION  &kp DE_AT_SIGN     &kp DE_HASH      &kp DE_DOLLAR        &kp DE_PERCENT  &kp LCTRL  &kp RCTRL  &kp DE_AMPERSAND      &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp RA(NON_US_BSLH)  &kp DE_QUESTION  &kp BSPC
-&kp LCTRL  &kp DE_PERIOD       &kp DE_UNDERSCORE  &kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &kp DE_COLON    &kp LALT   &kp RALT   &kp DE_SINGLE_QUOTE   &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH     &kp DE_HASH      &kp DE_GRAVE
-&kp LSHFT  &kp DE_ASTERISK     &kp DE_MINUS       &kp DE_PLUS      &kp DE_SLASH         &kp DE_EQUAL                          &kp DE_DOUBLE_QUOTES  &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_TILDE         &trans           &trans
-                                                  &trans           &trans               &trans                                &trans                &trans                   &trans
+&kp TAB    &kp DE_EXCLAMATION  &kp DE_AT_SIGN     &kp DE_HASH       &kp DE_DOLLAR        &kp DE_PERCENT  &kp LCTRL  &kp RCTRL  &kp DE_AMPERSAND      &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE       &kp DE_QUESTION  &kp BSPC
+&kp LCTRL  &kp DE_PERIOD       &kp DE_UNDERSCORE  &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &kp DE_COLON    &kp LALT   &kp RALT   &kp DE_SINGLE_QUOTE   &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_BACKSLASH  &kp DE_HASH      &kp DE_GRAVE
+&kp LSHFT  &kp DE_ASTERISK     &kp DE_MINUS       &kp DE_PLUS       &kp DE_SLASH         &kp DE_EQUAL                          &kp DE_DOUBLE_QUOTES  &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_TILDE      &trans           &trans
+                                                  &trans            &trans               &trans                                &trans                &trans                   &trans
             >;
         };
 
